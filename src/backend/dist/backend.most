@@ -1,0 +1,23 @@
+// Version: 1.0.0
+type CarId__351857442 = Nat;
+type Car__269403970 =
+  {
+    country : Country__151637380;
+    id : CarId__351857442;
+    identifyingFeatures : [Text];
+    imagePrompt : Text;
+    name : Text;
+    nickname : Text
+  };
+type Country__151637380 =
+  {#Electric; #Germany; #Japan; #Korea; #Luxury; #Russia; #UK; #USA};
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+actor {
+  stable cars :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?Car__269403970]];
+      var elementIndex : Nat__490723111
+    }
+};

@@ -1,0 +1,19 @@
+{
+  "overview": "A Mongolian-language children's car flashcard web app featuring 27 common cars found in Mongolia. Each flashcard shows the car's image, logo, Mongolian name and nickname, and key identifying features. Supports image uploads per card and filtering by country of origin.",
+  "features": [
+    "27 pre-seeded car flashcards with Mongolian names and nicknames",
+    "Filter cards by country of origin (Japan, Korea, Russia, Germany, UK, USA, Electric, Luxury)",
+    "Detail view with car logo, Mongolian name, nickname, and identifying features",
+    "Upload custom AI-generated images for each car card",
+    "Child-friendly colorful design with all text in Mongolian"
+  ],
+  "category": "education",
+  "tags": [
+    "flashcards",
+    "cars",
+    "mongolian",
+    "children",
+    "education"
+  ],
+  "last_updated": "2026-05-04T17:55:23.409Z"
+}

@@ -1,0 +1,26 @@
+type Country = 
+ variant {
+   Electric;
+   Germany;
+   Japan;
+   Korea;
+   Luxury;
+   Russia;
+   UK;
+   USA;
+ };
+type CarId = nat;
+type Car = 
+ record {
+   country: Country;
+   id: CarId;
+   identifyingFeatures: vec text;
+   imagePrompt: text;
+   name: text;
+   nickname: text;
+ };
+service : {
+  getAllCars: () -> (vec Car) query;
+  getCarById: (id: CarId) -> (opt Car) query;
+  getCarsByCountry: (country: Country) -> (vec Car) query;
+}
